@@ -7,46 +7,67 @@
     <meta name="keywords" content="computer programmer, programming, html, css">
     <meta name="discription" content="Резюме начинающего веб - разработчика">
     <title>about me </title>
+    <link rel="stylesheet" href="styles.css">
 </head>
     <body>
-        <style>
-            .header {
-                color:aqua ;
-            }
-        </style>
-        <style>
-            .head1 {
-                color:#FFFF00 ;
-            }
-        </style>
-    <img src="billy.jpg" alt="здесь должна была быть моя ава" width="250">
+    <div class="container">
+        <div class="navbar">
+            <ul>
+                <li >You</li>
+                <li >Can</li>
+                <li >Anything</li>
+                <li>You</li>
+                <li>Are</li>
+                <li>The</li>
+                <li>Best</li>
+            </ul>
+
+        </div>
+        <div class="info">
+        <img src="billy.jpg" alt="здесь должна была быть моя ава"  class="avatar">
+        <div class="info-text">
     <div class="header"><h1>Billy Herrington </h1></div>
-    <p><strong>Я</strong> начинающий <strong>веб разработчик</strong>. <br><br><em>Люблю изучать что - то новое, кушать и путешествовать по миру</em></p>
-    <hr color="aqua">
-    <div class="head1"><h2>Соц сети:</h2></div>
+    <div class="top c">
+    <p><strong>Я</strong> начинающий <strong>веб - разработчик</strong></p> 
+    <div class="top a">
+    <em>Люблю изучать что - то новое, кушать и путешествовать по миру</em>
+    </div>
+</div>
+  
+    <h2>Соц сети:</h2>
+    <nav class="nav">
     <a href="https://vk.com/id530614395" target="_blank"><strong>Vk</strong></a>
     |
     <a href="https://www.youtube.com/channel/UCAXUCFofdQPW5JOiTkvlm3Q" target="_blank"><strong>Youtube</strong></a>
+    |
+    <a href="https://web.telegram.org/z/#-1330245507" target="_blank"><strong>Telegram</strong></a>
+</nav>
+</div>
+</div>
+    <div class="card f">
+
     <h2>Мои хобби :</h2>
-    
-    <ul type="square">
+          
+    <ul class="list" >
         <li>Спорт</li>
-        <li><strong>Программирование</strong></li>
+        <li style="color: #FF7F50" ><strong>Программирование</strong></li>
         <li>Чтение книг по психологии</li>
         <li>Просмотр рэп - баттлов</li>
         <li>Путешествия</li>
     </ul>
-    
 
-    <h2>Опыт работы</h2>
-    <table border="5">
-        <thead>
+</div>
+
+    <div class="card g">
+<h2>Опыт работы :</h2>
+    <table class="table">
+        <!-- <thead>
             <tr>
                 <th>Название</th>
                 <th>Должность</th>
                 <th>Год</th>
             </tr>
-        </thead>
+        </thead> -->
         <tbody>
             <tr>
               <td>Youtube</td>
@@ -65,25 +86,42 @@
             </tr>
         </tbody>
     </table>
-    <h2>Связаться со мной</h2>
-    <br>
-    <form>
-        <div>
+</div>
+    <div class="card h">
+
+    
+    <form action="/" class="former">
+        <h2>Связаться со мной :</h2>
+        <div class="top b">
+            <div class="form-row">
+            <div class="form-group">
             <label for="text">Ваше имя:</label>
             <input type="text" id="text" placeholder="Введите имя">
         </div>
-        <div>
-            <label for="email">Ваш email</label>
+
+        <div class="form-group">
+            <label for="email">Ваш email:</label>
             <input type="email" id="email" placeholder="Введите email">
         </div>
-        <div>
-            <label for="message">Сообщение</label>
-            <br>
-            <textarea id="message" cols="30" rows="10" placeholder="Введите сообщение. . ."></textarea>
+    </div>
+        <div class="form-group">
+            <label for="message">Сообщение:</label>
+            
+            <textarea id="message" cols="20" rows="8" placeholder="Введите сообщение. . ."></textarea>
         </div>
             <div>
-                <button type="submit">Отправить!</button>
+                <button type="submit" class="btn"><div style="font-size:17px">Отправить!</div></button>
             </div>
+        </div>
     </form>
+</div>
+<footer id='footer'>
+    Страница защищена от взломов().() 
+</footer>
+</div>
+
+
+
+
     </body>
 </html>
